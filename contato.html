@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="icone.ico" />
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contato - Blog de Viagem</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                background-color: #f4f4f4;
+                color: #333;
+            }
+    
+            header {
+                background-color: #007BFF;
+                color: rgb(255, 255, 255);
+                text-align: center;
+                padding: 1em 0;
+            }
+    
+            nav {
+                background-color: #333;
+                color: white;
+                text-align: center;
+                padding: 1em 0;
+            }
+    
+            nav a {
+                color: white;
+                text-decoration: none;
+                padding: 0 15px;
+            }
+    
+            section {
+                max-width: 800px;
+                margin: 20px auto;
+                padding: 20px;
+                background-color: white;
+            }
+    
+            form {
+                display: flex;
+                flex-direction: column;
+            }
+    
+            label {
+                margin-bottom: 8px;
+            }
+    
+            input,
+            textarea {
+                padding: 8px;
+                margin-bottom: 16px;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+            }
+    
+            input[type="submit"] {
+                background-color: #007BFF;
+                color: white;
+                cursor: pointer;
+            }
+    
+            footer {
+                background-color: #333;
+                color: white;
+                text-align: center;
+                padding: 1em 0;
+                position: fixed;
+                bottom: 0;
+                width: 100%;
+            }
+            
+        </style>
+    </head>
+    
+    <body>
+        <header>
+            <h1>Cruzando territórios</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="#">Dicas de Viagem</a></li>
+                <li><a href="sobre_nos.html">Sobre Nós</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    
+        <section id="contatos">
+            <h2>Entre em Contato</h2>
+            <form action="#" method="post">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+    
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+    
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+    
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+    
+        <footer>
+            <div class="final">&copy; 2023 Blog de Viagem</div>
+        </footer>
+    </body>
+    
+    </html>
